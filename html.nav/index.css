@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: brown;
+    justify-content: space-between;
+    padding: 10px  20px;
+}
+
+.logo img{
+    border-radius: 10px;
+}
+
+.link{
+    gap: 50px;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    transition: background-color 1s , color 1s ;
+    
+
+}
+button:hover{
+    color: red;
+    opacity: 0.5;
+     
+}
+
+ button:active{
+ opacity: 0.2;
+ }
+
+ a:hover{
+    
+    color: rgb(77, 153, 34);
+ }
+ 
